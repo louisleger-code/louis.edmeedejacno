@@ -22,7 +22,7 @@ header {
 
 /* Nom de marque inspiré de Saint Laurent */
 header h1 {
-    font-size: 1.8em; /* Taille réduite pour un look plus minimaliste */
+    font-size: 1.2em; /* Réduire la taille pour s'approcher de Saint Laurent */
     font-weight: 600;
     letter-spacing: 1px;
     color: white;
@@ -47,7 +47,7 @@ header h1 {
 .hamburger span {
     display: block;
     width: 100%;
-    height: 3px;
+    height: 2px; /* Réduire la hauteur des lignes du menu hamburger */
     background-color: white;
     transition: 0.3s;
 }
@@ -102,6 +102,7 @@ header h1 {
 
 .stripe {
     flex: 1;
+    height: 20%; /* Assurez-vous que toutes les bandes aient la même hauteur */
 }
 
 .stripe:nth-child(1) { background-color: #4c4a39; } /* Vert */
@@ -115,15 +116,15 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh; /* Ajustez la hauteur de la vidéo */
     position: relative;
     z-index: 5;
     padding-top: 40px; /* Permet de montrer la vidéo dès l’arrivée sur le site */
 }
 
 video {
-    width: 65%; /* Réduction de la taille pour occuper un peu moins de place */
-    max-width: 65%;
-    max-height: 65%;
+    width: 50%; /* Réduction de la taille de la vidéo pour qu'elle occupe moins d'espace */
+    max-width: 50%; /* Assurez-vous que la vidéo ne dépasse pas cette taille */
+    max-height: 50%; /* Assurez-vous que la vidéo ne dépasse pas cette taille */
     box-shadow: none; /* Suppression de la bordure */
 }
