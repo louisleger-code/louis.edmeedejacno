@@ -39,7 +39,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 20px;
+    height: 30px; /* Ajustez la hauteur totale du hamburger */
     width: 25px;
     z-index: 11;
     margin-top: 20px; /* Ajustement de l'espacement */
@@ -98,7 +98,7 @@ header h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 1; /* Assurez-vous que cela soit plus bas que les autres éléments */
 }
 
 .stripe {
@@ -119,7 +119,7 @@ header h1 {
     align-items: center;
     height: 90vh; /* Augmentez la hauteur de la vidéo pour qu'elle soit plus haute sur la page */
     position: relative;
-    z-index: 5;
+    z-index: 5; /* Assurez-vous que la vidéo soit au-dessus de l'arrière-plan */
     padding-top: 40px; /* Permet de montrer la vidéo dès l’arrivée sur le site */
 }
 
