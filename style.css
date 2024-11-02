@@ -24,7 +24,7 @@ header {
 
 /* Nom de marque inspiré de Saint Laurent */
 header h1 {
-    font-size: 1em; /* Réduire la taille de la police pour s'approcher encore plus du site de Saint Laurent */
+    font-size: 1em; /* Taille réduite pour un look plus minimaliste */
     font-weight: 600;
     letter-spacing: 1px;
     color: white;
@@ -39,7 +39,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 30px; /* Ajustez la hauteur totale du hamburger */
+    height: 20px;
     width: 25px;
     z-index: 11;
     margin-top: 20px; /* Ajustement de l'espacement */
@@ -48,7 +48,7 @@ header h1 {
 .hamburger span {
     display: block;
     width: 100%;
-    height: 1px; /* Réduire la hauteur des lignes du menu hamburger */
+    height: 3px; /* Hauteur des lignes du menu hamburger */
     background-color: white;
     transition: 0.3s;
 }
@@ -103,7 +103,6 @@ header h1 {
 
 .stripe {
     flex: 1;
-    height: 20%; /* Assurez-vous que toutes les bandes aient la même hauteur */
 }
 
 .stripe:nth-child(1) { background-color: #4c4a39; } /* Vert */
@@ -117,15 +116,15 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh; /* Augmentez la hauteur de la vidéo pour qu'elle soit plus haute sur la page */
+    height: 100vh;
     position: relative;
-    z-index: 5; /* Assurez-vous que la vidéo soit au-dessus de l'arrière-plan */
+    z-index: 5;
     padding-top: 40px; /* Permet de montrer la vidéo dès l’arrivée sur le site */
 }
 
 video {
-    width: 50%; /* Réduction de la taille de la vidéo pour qu'elle occupe moins d'espace */
-    max-width: 50%; /* Assurez-vous que la vidéo ne dépasse pas cette taille */
-    max-height: 50%; /* Assurez-vous que la vidéo ne dépasse pas cette taille */
+    width: 65%; /* Réduction de la taille pour occuper un peu moins de place */
+    max-width: 65%;
+    max-height: 65%;
     box-shadow: none; /* Suppression de la bordure */
 }
