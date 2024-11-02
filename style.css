@@ -15,18 +15,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     position: relative;
     z-index: 10;
 }
 
-/* Nom de marque avec une police inspirée des marques de luxe */
+/* Nom de marque inspiré de Saint Laurent */
 header h1 {
-    font-size: 2.5em;
-    font-weight: 400;
-    letter-spacing: 3px;
+    font-size: 1.8em; /* Taille réduite pour un look plus minimaliste */
+    font-weight: 600;
+    letter-spacing: 1px;
     color: white;
-    font-family: 'Georgia', serif; /* Choix pour un effet chic, inspiré des marques de luxe */
+    font-family: 'Arial Narrow', sans-serif; /* Police modifiée pour un effet similaire */
     margin-top: 20px; /* Descend légèrement le nom */
 }
 
@@ -38,7 +38,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 22px;
+    height: 20px;
     width: 25px;
     z-index: 11;
     margin-top: 20px; /* Ajustement de l'espacement */
@@ -56,7 +56,7 @@ header h1 {
 #menu {
     display: none;
     position: absolute;
-    top: 80px; /* Ajusté pour le nouvel espacement */
+    top: 60px;
     left: 20px;
     padding: 10px;
     z-index: 10;
@@ -118,17 +118,12 @@ header h1 {
     height: 100vh;
     position: relative;
     z-index: 5;
+    padding-top: 40px; /* Permet de montrer la vidéo dès l’arrivée sur le site */
 }
 
 video {
-    width: 70%; /* Réduction de la taille pour occuper un peu moins de place */
-    max-width: 70%;
-    max-height: 70%;
+    width: 65%; /* Réduction de la taille pour occuper un peu moins de place */
+    max-width: 65%;
+    max-height: 65%;
     box-shadow: none; /* Suppression de la bordure */
-}
-
-/* Effet chic pour les liens de menu */
-#menu ul li a:hover {
-    color: #b3b3b3;
-    transition: color 0.3s ease;
 }
